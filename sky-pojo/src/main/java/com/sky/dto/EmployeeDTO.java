@@ -20,16 +20,4 @@ public class EmployeeDTO implements Serializable {
 
     private String idNumber;
 
-    private String password;
-
-    private LocalDateTime createTime;
-
-    private LocalDateTime updateTime;
-
-    private String createUser;
-
-    private String updateUser;
-
-    private Integer status;
-
 }
