@@ -3,6 +3,7 @@ package com.sky.dto;
 import lombok.Data;
 
 import java.io.Serializable;
+import java.time.LocalDateTime;
 
 @Data
 public class EmployeeDTO implements Serializable {
@@ -21,14 +22,14 @@ public class EmployeeDTO implements Serializable {
 
     private String password;
 
-    private String createTime;
+    private LocalDateTime createTime;
 
-    private String updateTime;
+    private LocalDateTime updateTime;
 
     private String createUser;
 
     private String updateUser;
 
-    private String status;
+    private Integer status;
 
 }
